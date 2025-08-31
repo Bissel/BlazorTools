@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageId>Bissel.BlazorTools</PackageId>
+        <Version>0.8.0.0-pre.1</Version>
+        <Authors>Bissel</Authors>
+        <PackageDescription>Bissel.BlazorTools: Provides with handy Tools for Blazor-Projects.</PackageDescription>
+        <RepositoryUrl>https://github.com/Bissel/BlazorTools</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageTags>Blazor, Tools</PackageTags>
+        <License>MIT</License>
+        <Copyright>Copyright (c) Bissel 2025</Copyright>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Bissel.BlazorTools</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="../README.md" Pack="true" PackagePath="/"/>
+    </ItemGroup>
+
+</Project>
